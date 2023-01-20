@@ -1,0 +1,28 @@
+
+  
+  svg {
+    position: absolute;
+    top: -2;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+
+    max-width: 5vw;
+    max-height: 5vh;
+    display: block;
+    margin : 0 auto;
+  }
+  .clouds {
+    -webkit-animation: clouds 7.5s linear forwards infinite;
+            animation: clouds 7.5s linear forwards infinite;
+  }
+  @-webkit-keyframes clouds {
+    100% {
+      transform: translateX(-151%);
+    }
+  }
+  @keyframes clouds {
+    100% {
+      transform: translateX(-151%);
+    }
+  }
